@@ -1,0 +1,33 @@
+# Entornos
+.env
+*.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+
+# ML artifacts grandes (subir solo si < 100MB)
+backend/ml/artifacts/*.pkl
+backend/ml/artifacts/*.joblib
+
+# Datos crudos (nunca al repo)
+data/raw/
+
+# Node
+node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
